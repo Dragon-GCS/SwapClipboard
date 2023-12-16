@@ -1,0 +1,13 @@
+[package]
+name = "scb"
+version = "0.1.0"
+edition = "2021"
+description = "Swap clipboard"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.5.0"
+clipboard-win = "5.0.0"
+tokio = { version = "1.35.0", features = ["full"] }
+warp = "0.3.6"
